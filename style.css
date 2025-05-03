@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.navbar-section-div{
+    background-color: transparent;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.navbar-section-div ul{
+    display:flex ;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    font-size: larger;
+}
+.navbar-section-div div button{
+    background-color: orangered;
+    color: white;
+    border-radius: 6px;
+    width: 140px;
+    height: 50px;
+    font-size: large;
+    border-color: transparent;
+    cursor: pointer;
+}
+.navbar-section-div div button:hover{
+    background-color: green;
+    color:rgb(179, 0, 255)
+}
+
+.hero-section{
+    background: linear-gradient(to top, rgb(0, 0, 255, 0.108), rgb(255, 0, 0, 0), rgb(108, 159, 230)),
+    url("home-hero.jpg");
+    
+
+
+    /* background-image: url("home-hero.jpg");
+    /* height: 100vh; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+
+}
+
+.hero-section h3 {
+    background-color: rgb(255, 255, 255, 0.2);
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: x-large;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    
+}
+.hero-section >h1 {
+    font-size: 65px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.hero-section p{
+    font-size: medium;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+/* .hero-section div button  :nth-child(2){
+    background-color: orange;
+     */
+
+
+.hero-section div button {
+    background-color: orangered;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    color: white;
+    border-color: transparent;
+    margin-right: 100px;
+}
+
+.hero-section .hero-btn-watch {
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border-color: gray;
+
+}
+
+.hero-section .hero-btn-watch:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.hero-section button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.dest-flex-container {
+
+}
+.dest-section h3 {
+    width: 300px;
+    margin-top: 70px;
+    color: orangered;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: rgb(243, 238, 241);
+    
+}
+
+.dest-section h1{
+    font-size: 50px;
+    color: #080808;
+    justify-content: center;
+    text-align: center;
+}
+.dest-flex-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+
+.dest-flex-container div div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: 50px;
+    
+
+}
+.dest-flex-container div > div {
+    width: 300px;
+    
+
+}
+
+.euro{
+    padding: 5px;
+}
+
+.euro-1{
+    padding: 5px;
+}.euro-3{
+    padding: 5px;
+}
+
+.dest-flex-container h4{
+    margin-top: 40px;
+    background-color: rgb(230, 187, 171);
+    font-weight: normal;
+    font-size: large;
+    font-style: normal;
+    color: orangered;
+    width: 100px;
+    justify-self: center;
+    border-radius: 15px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.dest-flex-container .dest-1{
+    border-style: double;
+    border-color: transparent;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top: -65px;
+    left: 75px;
+    align-self:center;
+}
+
+.dest-flex-container .dest-2{
+    border-style: double;
+    border-color: transparent;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top: -65px;
+    left: 75px;
+    right: auto;
+    margin-top: 10px;
+}
+ 
+.dest-flex-container .dest-3{
+    border-style: double;
+    border-color: transparent;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    top: -65px;
+    left: 75px;
+    right: auto;
+    margin-top: 10px;
+}
+
+
+/* abou us sectio css */
+.About-us-section{
+    background-color: #fff7ec;
+    height: 100vh;
+}
+.about-us-flex-container{
+    display: flex;
+    align-items: center;
+    padding: 100px; 
+}
+
+.about-us-flex-container h3 {
+    color: orangered;
+    background-color: white;
+    border-radius: 10pxs;
+    font-weight: normal;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.about-us-flex-container h1 {
+    color: black;
+    font-size:65px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+@media(max-width:1024px){
+    .hero-section {
+        height: auto;
+    }
+    .dest-flex-container{
+
+    }
+ }
+ @media(max-width:834px){
+    .navbar-section-div ul{
+        display: none;
+    }
+    .navbar-section-div div button{
+        display: none;
+    }
+    /* hero css media query */
+    .hero-section h1{
+        width: 100%;
+    }
+    .hero-section p{
+        width: 100%;
+    }
+    .hero-section .hero-btn-watch {
+        margin-top: 30px;
+    }
+ }
+ @media(max-width:768px){
+
+ }
+ @media(max-width:480px){
+    .hero-section h3 {
+width: 250px;
+font-size: medium;
+    }
+    .hero-section h1 {
+        font-size: 43px;
+    }
+ }
